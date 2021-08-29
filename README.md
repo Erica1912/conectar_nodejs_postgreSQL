@@ -4,6 +4,4 @@ Conectar un servidor de node JS a un servidor de Postgres y hacer consultas bás
 ## Tecnologías
 ***
 
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
-
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
