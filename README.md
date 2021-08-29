@@ -1,7 +1,8 @@
-# conectar_nodejs_PostgreSQL
+# conectar_nodejs_PostgreSQL  :zap:
 Conectar un servidor de node JS a un servidor de Postgres y hacer consultas básicas del CRUD usando el módulo de npm llamado "pg", el cual nos permite manejar las consultas usando promesas o async/await.
 
-## Tecnologías
+## Tecnologías :computer:
 ***
 
-:+1: This PR looks great - it's ready to merge! :shipit:
+:heavy_check_mark: Node JS 
+
