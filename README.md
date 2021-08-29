@@ -5,4 +5,4 @@ Conectar un servidor de node JS a un servidor de Postgres y hacer consultas bás
 ***
 
 
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true)
