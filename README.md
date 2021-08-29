@@ -3,3 +3,6 @@ Conectar un servidor de node JS a un servidor de Postgres y hacer consultas bás
 
 ## Tecnologías
 ***
+
+
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
