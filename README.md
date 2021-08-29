@@ -4,4 +4,4 @@ Conectar un servidor de node JS a un servidor de Postgres y hacer consultas bás
 ## Tecnologías
 ***
 
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+:+1: This PR looks great - it's ready to merge! :shipit:
