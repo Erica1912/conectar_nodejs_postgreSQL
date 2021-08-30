@@ -16,8 +16,8 @@ const { Client, Pool } = require("pg");
       const res = await pool.query('select * from public."T_USUARIOS"');
       console.log(res.rows);
       pool.end();
-    } catch(e) {
-        console.log(e);
+    } catch (e) {
+      console.log(e);
     }
   };
 
@@ -29,11 +29,23 @@ const { Client, Pool } = require("pg");
       const res = await pool.query(insUsu, value);
       console.log(res);
       pool.end();
-    } catch(e) {
-        console.log(e);
+    } catch (e) {
+      console.log(e);
     }
   };
-  insertUsu();
+
+  const delUsu = async () => {
+    try {
+      const deleUsu = 'DELETE FROM public."T_USUARIOS" WHERE "NOMBRE_APELLIDO" = $1;';
+      const value = ["erica ruiz"];
+      const res = await pool.query(deleUsu, value);
+      console.log(res);      
+    } catch {}
+  };
+
+  delUsu();
+  //
+  // insertUsu();
   //getUser();
 
   /* const getUser = async (pool) => {
