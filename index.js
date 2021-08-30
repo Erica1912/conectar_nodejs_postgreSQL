@@ -16,16 +16,22 @@ const { Client, Pool } = require("pg");
       const res = await pool.query('select * from public."T_USUARIOS"');
       console.log(res.rows);
       pool.end();
-    } catch {}
+    } catch(e) {
+        console.log(e);
+    }
   };
 
   const insertUsu = async () => {
-    const insUsu =
-      'INSERT INTO public."T_USUARIOS"("NOMBRE_APELLIDO", "CEDULA", "TELEFONO")VALUES($1,$2,$3)';
-    const value = ["erica ruiz", "156", "15"];
-    const res = await pool.query(insUsu, value);
-    console.log(res);
-    pool.end();
+    try {
+      const insUsu =
+        'INSERT INTO public."T_USUARIOS"("NOMBRE_APELLIDO", "CEDULA", "TELEFONO")VALUES($1,$2,$3)';
+      const value = ["yessica ramirez", "123", "169"];
+      const res = await pool.query(insUsu, value);
+      console.log(res);
+      pool.end();
+    } catch(e) {
+        console.log(e);
+    }
   };
   insertUsu();
   //getUser();
